@@ -11,7 +11,7 @@ namespace GrpcUsingApi.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private readonly GrpcChannel _channel;
+        
         private readonly Student.StudentClient _studentClient;
         private readonly IConfiguration _configuration;
 
